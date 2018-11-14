@@ -13,9 +13,9 @@ public class HelloServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
         out.print("<html><head><title>Test</title></head><body>");
         out.print("<form method='post'>");
-        out.print("Name : <input name='name' /> <br>");
-        out.print("Email address : <input name='email' /> <br>");
-        out.print("Problem : <input name='problem' /> <br>");
+        out.print("Name : <input type='text' name='name' /> <br>");
+        out.print("Email address : <input type='text' name='email' /> <br>");
+        out.print("Problem : <input type='text' name='problem' /> <br>");
         out.print("Description : <textarea name='desc' rows='10' cols='50'></textarea> <br>");
         out.print("<input type='submit' value='help'/>");
         out.print("</form>");
